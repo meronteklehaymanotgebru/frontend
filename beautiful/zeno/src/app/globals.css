@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+
+
+
+:root {
+  --font-teachers: 'Teachers', Arial, Helvetica, sans-serif;
+}
+
+html, body {
+  font-family: var(--font-teachers);
+  color: #222;
+}
+
+.teachers {
+  font-family: var(--font-teachers);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color:#0A1A2E ;
+  color: #fff;
+}
+
+* {
+  box-sizing: border-box;
+}
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 30px #374151 inset !important; 
+  -webkit-text-fill-color: #ffffff !important; 
+
+}
